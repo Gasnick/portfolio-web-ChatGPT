@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1231%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1232%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1411 317L1410 722' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M96 293L95 83' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M43 246L42 -126' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M423 179L422 381' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M980 89L979 -162' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M97 490L96 126' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M563 431L562 148' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M177 178L176 486' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M437 536L436 221' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M696 322L695 -17' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M12 192L11 -5' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M994 274L993 541' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M374 442L373 60' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M522 559L521 859' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M85 87L84 -275' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1408 503L1407 874' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1329 90L1328 -54' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M767 419L766 775' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M142 438L141 633' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1096 169L1095 -27' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M283 221L282 -30' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M956 363L955 650' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1292 547L1291 391' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M776 6L775 -153' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1213 255L1212 -23' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1049 522L1048 244' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M144 137L143 497' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M463 456L462 639' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M564 448L563 192' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1208 208L1207 -169' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M991 480L990 278' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M966 270L965 608' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M176 213L175 525' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1234%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M524 375L523 53' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M523 464L522 273' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1414 21L1413 225' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1233%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1231'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1232'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(29%2c 29%2c 30%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1233'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1234'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #aaaaaa;
+}
+
+main {
+    color: rgb(12, 12, 12);
+    padding-top: 60px;
+    background-color: white;
+    opacity: 0.6;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+}
+
+#sobre-mi,
+#mis-proyectos{
+    border-bottom: 3px solid darkgoldenrod;
+}
+
+
+.perfil {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 150px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.proyecto {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cv-columna {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+#contacto h2 {
+    text-align: center;
+}
+
+.proyecto:hover {
+    background: skyblue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .cv-columna {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #0d3ed2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eaff00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #777;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #777;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #777;
+}
